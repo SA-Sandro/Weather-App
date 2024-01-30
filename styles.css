@@ -1,0 +1,84 @@
+section{
+    min-height: 600px;
+}
+.divInputs{
+    min-width: 300px;
+}
+
+.divPrincipal{
+    background-color: #536883;
+}
+.tituloPrincipal{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.tiempoLocalidad{
+    font-size: 0.8rem;
+    color: rgba(212, 212, 212, 0.592);
+}
+.sindatos{
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mensajito{
+    color: rgb(247, 216, 216);
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+.btnWeather {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #57cc99;
+   z-index: 1;
+  }
+  .btnWeather:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .btnWeather:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #80ed99;
+    right: 0;
+  }
+  .btnWeather:active {
+    top: 2px;
+  }
+  .divSvg{
+    padding: 0;
+    margin: 0;
+  }
+  .divSvg img{
+    width: 150px;
+  }
+  .tm{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .divTmax p, .divTm p{
+    margin: 0;
+  }
+  .divTmin p, .divTmax p{
+    color: rgba(212, 212, 212, 0.592);
+  }
